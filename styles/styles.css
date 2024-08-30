@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3dbdb;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: -45rem; 
+    font-size: 32px;
+    position: absolute;
+    color: #30db09;
+}
+
+form {
+    background-color: #888484;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #04ee1f;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.mensajes {
+    margin-top: 20px;
+}
+
+.resultado {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+    color: #121010;
+}
+
+.pista {
+    font-size: 16px;
+    color: #666;
+    background-color: yellow;
+}
+
+.previa {
+    font-size: 14px;
+    color: #999;
+    background-color: greenyellow;
+}
+
+button {
+    background-color: #007bff;
+    color: #0b0b0b;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.reset-button {
+    margin: 0; 
+    padding: 10px 15px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
